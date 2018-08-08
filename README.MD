@@ -8,7 +8,7 @@ This is a very simple sample showing how to log an ASP.Net Core on Graylog
 - Running
    - Dependencies
    - Application
-- Logging on ASP.Net Core
+- Logging ASP.Net Core
 - Exploring Graylog
 - References
 
@@ -16,7 +16,7 @@ This is a very simple sample showing how to log an ASP.Net Core on Graylog
 
 | Tool | Desc | Download |
 | ---- | ---- | -------- |
-| Docker | Specially to run the Compose to bring up all the solution dependencies like Mongo, Graylog and Elastic Search | [https://store.docker.com/](https://store.docker.com/) |
+| Docker | Specially to run the Compose to run up all the solution dependencies like Mongo, Graylog and Elastic Search | [https://store.docker.com/](https://store.docker.com/) |
 | DotNet Core SDK | To run the sample application. You can optionally run the sample application on a container but you will need to deal with networking stuff | [https://www.microsoft.com/net/download](https://www.microsoft.com/net/download) |
 
 ## Running
@@ -49,3 +49,19 @@ To run the sample application, just run the command
 ```sh
 dotnet run -p ./SampleMVC
 ```
+
+## Logging ASP.Net Core
+
+The sample applications uses the [Gelf.Extensions.Logging](https://www.nuget.org/packages/Gelf.Extensions.Logging/) library, that relyes on [Microsoft.Extensions.Logging](https://www.nuget.org/packages/Microsoft.Extensions.Logging/), enabling a very seamless integration to the application pipeline and enabling a very simple loggin implementation.
+To log informations to Graylog just use the common pattern as described in the [ASP.Net Core Documentation](https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/logging/?view=aspnetcore-2.1).
+
+## Exploring Graylog
+
+The view logged information on Graylog, just access the web interface.
+By default, it should be running on `http://localhost:9000`.
+
+## References
+
+- [https://hub.docker.com/r/graylog/graylog/](https://hub.docker.com/r/graylog/graylog/)
+- [https://github.com/mattwcole/gelf-extensions-logging](https://github.com/mattwcole/gelf-extensions-logging)
+- [https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/logging/?view=aspnetcore-2.1](https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/logging/?view=aspnetcore-2.1)
