@@ -40,7 +40,7 @@ To run the solution dependencies, run the following command on project root:
 docker-compose up -d
 ```
 
-> The `-d` option is opitional and tells the command to run on background freeing up the terminal
+> The `-d` option is opitional and tells the command to run on background freeing up the terminal.
 
 ### Application
 
@@ -49,6 +49,8 @@ To run the sample application, just run the command
 ```sh
 dotnet run -p ./SampleMVC
 ```
+
+> By default, the sample application locks the **5000** port on host.
 
 ## Logging ASP.Net Core
 
