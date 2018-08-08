@@ -5,11 +5,11 @@ This is a very simple sample showing how to log an ASP.Net Core on Graylog
 ## Summary
 
 - [Requirements](#requirements)
-- [Running]
-   - [Dependencies]
-   - [Application]
-- [Logging ASP.Net Core]
-- [Exploring Graylog]
+- [Running](#running)
+   - [Dependencies](#dependencies)
+   - [Application](#application)
+- [Logging ASP.Net Core](#logging-aspnet-core)
+- [Exploring Graylog](#exploring-graylog)
 - [References](#references)
 
 ## Requirements
