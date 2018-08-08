@@ -1,54 +1,50 @@
-﻿using System;
+﻿using Serilog;
+using Serilog.Events;
+using Serilog.Sinks.Graylog;
+using Serilog.Sinks.Graylog.Core;
+using Serilog.Sinks.Graylog.Core.Transport;
+using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using SampleMVC.Models;
+using System.Web;
+using System.Web.Mvc;
 
-namespace SampleMVC.Controllers
+namespace GrayLogTest.MVC.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        public ActionResult Index()
         {
-            _logger = logger;
-        }
+            var loggerConfig = new LoggerConfiguration();
 
-        public IActionResult Index()
-        {
-            _logger.LogInformation("Somethign informational happend");
-            _logger.LogWarning("Something warmfull happend");
-            _logger.LogError("Bad bad Jimmy");
-            return View();
-        }
+            loggerConfig.WriteTo.Graylog(new GraylogSinkOptions
+            {
+                ShortMessageMaxLength = 50,
+                MinimumLogEventLevel = LogEventLevel.Fatal,
+                Facility = "DotNetFramework.MVC.GrayLog",
+                HostnameOrAddress = "csclogs.minhati.com.br",
+                Port = 12201
+            });
 
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
+            var logger = loggerConfig.CreateLogger();
 
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
+            logger.Error("Testando envio UDP", "Error");
 
             return View();
         }
 
-        public IActionResult Privacy()
+        public ActionResult About()
         {
+            ViewBag.Message = "Your application description page.";
+
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public ActionResult Contact()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            ViewBag.Message = "Your contact page.";
+
+            return View();
         }
     }
 }
