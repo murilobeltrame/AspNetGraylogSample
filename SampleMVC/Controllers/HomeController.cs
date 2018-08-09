@@ -20,15 +20,23 @@ namespace GrayLogTest.MVC.Controllers
             loggerConfig.WriteTo.Graylog(new GraylogSinkOptions
             {
                 ShortMessageMaxLength = 50,
-                MinimumLogEventLevel = LogEventLevel.Fatal,
+                //MinimumLogEventLevel = LogEventLevel.Fatal,
+                MinimumLogEventLevel = LogEventLevel.Debug,
                 Facility = "DotNetFramework.MVC.GrayLog",
-                HostnameOrAddress = "csclogs.minhati.com.br",
+                //HostnameOrAddress = "csclogs.minhati.com.br",
+                HostnameOrAddress = "localhost",
                 Port = 12201
             });
 
             var logger = loggerConfig.CreateLogger();
 
-            logger.Error("Testando envio UDP", "Error");
+            for (int i = 0; i < 100; i++)
+            {
+                logger.Error("Testando envio UDP", "Error");
+            }
+
+            //logger.Error("Testando envio UDP", "Error");
+            //logger.Debug("Testando envio de Debug para o CL");
 
             return View();
         }
