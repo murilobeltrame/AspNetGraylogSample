@@ -20,7 +20,8 @@ This is a very simple sample showing how to log an ASP.Net Core on Graylog
 | Tool | Desc | Download |
 | ---- | ---- | -------- |
 | Docker | Specially to run the Compose to run up all the solution dependencies like Mongo, Graylog and Elastic Search | [https://store.docker.com/](https://store.docker.com/) |
-| DotNet Core SDK | To run the sample application. You can optionally run the sample application on a container but you will need to deal with networking stuff | [https://www.microsoft.com/net/download](https://www.microsoft.com/net/download) |
+| DotNet Core SDK 2.1+ | To run the sample ASP.Net Core application. You can optionally run the sample application on a container but you will need to deal with networking stuff | [https://www.microsoft.com/net/download](https://www.microsoft.com/net/download) |
+| Visual Studio 2015+ | To run the sample of *now traditional* ASP.Net application. Windows only. You can optionally run the sample building with MSTest and serving with a local (or remote) IIS but is a unnecessary pain. | [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/) |
 
 ## Running
 
@@ -57,14 +58,14 @@ To run this sample application, just run the command:
 dotnet run -p ./SampleMVCCore
 ```
 
-> By default, the sample application locks the **5001** port on host.
-
 Alternatively, there`s a configured Docker recipe for the application. To build and run, execute this command sequence:
 
 ```sh
 docker build -t aspnetcore-graylog-sample ./SampleMVCCore/.
 docker run -p 5001:80 aspnetcore-graylog-sample
 ```
+
+> By default, the sample application locks the **5001** port on host.
 
 [TODO] Fix communication between Graylog (Compose) and Docker app.
 
