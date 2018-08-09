@@ -1,0 +1,471 @@
+2018-08-09 00:32:44.849 -03:00 [Information] Starting web app
+2018-08-09 00:32:45.351 -03:00 [Information] User profile is available. Using '"/Users/murilobeltrame/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2018-08-09 00:32:51.799 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:32:51.918 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:32:51.931 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:32:51.939 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.705ms.
+2018-08-09 00:32:51.956 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:32:52.239 -03:00 [Information] Executed ViewResult - view "About" executed in 292.375ms.
+2018-08-09 00:32:52.240 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 321.932ms
+2018-08-09 00:32:52.254 -03:00 [Information] Request finished in 456.824ms 200 text/html; charset=utf-8
+2018-08-09 00:32:56.648 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:32:56.650 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:32:56.650 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:32:56.651 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.197ms.
+2018-08-09 00:32:56.653 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:32:56.668 -03:00 [Information] Executed ViewResult - view "Index" executed in 16.519ms.
+2018-08-09 00:32:56.668 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 17.935ms
+2018-08-09 00:32:56.669 -03:00 [Information] Request finished in 20.92ms 200 text/html; charset=utf-8
+2018-08-09 00:32:58.400 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:32:58.400 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:32:58.400 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:32:58.401 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.015ms.
+2018-08-09 00:32:58.401 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:32:58.402 -03:00 [Information] Executed ViewResult - view "About" executed in 0.963ms.
+2018-08-09 00:32:58.402 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 1.735ms
+2018-08-09 00:32:58.402 -03:00 [Information] Request finished in 2.503ms 200 text/html; charset=utf-8
+2018-08-09 00:32:59.199 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/Contact  
+2018-08-09 00:32:59.201 -03:00 [Information] Route matched with "{action = \"Contact\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)"
+2018-08-09 00:32:59.201 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:32:59.201 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.167ms.
+2018-08-09 00:32:59.203 -03:00 [Information] Executing ViewResult, running view "Contact".
+2018-08-09 00:32:59.208 -03:00 [Information] Executed ViewResult - view "Contact" executed in 6.369ms.
+2018-08-09 00:32:59.208 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" in 7.338ms
+2018-08-09 00:32:59.208 -03:00 [Information] Request finished in 9.388ms 200 text/html; charset=utf-8
+2018-08-09 00:35:52.713 -03:00 [Information] Starting web app
+2018-08-09 00:35:53.371 -03:00 [Information] User profile is available. Using '"/Users/murilobeltrame/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2018-08-09 00:36:04.302 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:36:04.444 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:36:04.456 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:36:04.465 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.551ms.
+2018-08-09 00:36:04.489 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:36:04.785 -03:00 [Information] Executed ViewResult - view "Index" executed in 311.957ms.
+2018-08-09 00:36:04.788 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 343.186ms
+2018-08-09 00:36:04.799 -03:00 [Information] Request finished in 498.681ms 200 text/html; charset=utf-8
+2018-08-09 00:36:04.811 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css  
+2018-08-09 00:36:04.816 -03:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2018-08-09 00:36:04.819 -03:00 [Information] Request finished in 7.864ms 304 text/css
+2018-08-09 00:36:04.820 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css  
+2018-08-09 00:36:04.822 -03:00 [Information] The file "/css/site.css" was not modified
+2018-08-09 00:36:04.823 -03:00 [Information] Request finished in 2.313ms 304 text/css
+2018-08-09 00:36:04.824 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/banner1.svg  
+2018-08-09 00:36:04.825 -03:00 [Information] The file "/images/banner1.svg" was not modified
+2018-08-09 00:36:04.826 -03:00 [Information] Request finished in 1.551ms 304 image/svg+xml
+2018-08-09 00:36:04.827 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/banner2.svg  
+2018-08-09 00:36:04.829 -03:00 [Information] The file "/images/banner2.svg" was not modified
+2018-08-09 00:36:04.830 -03:00 [Information] Request finished in 2.232ms 304 image/svg+xml
+2018-08-09 00:36:04.939 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js  
+2018-08-09 00:36:04.940 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.js  
+2018-08-09 00:36:04.940 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-08-09 00:36:04.940 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/banner3.svg  
+2018-08-09 00:36:04.940 -03:00 [Information] The file "/js/site.js" was not modified
+2018-08-09 00:36:04.940 -03:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2018-08-09 00:36:04.941 -03:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2018-08-09 00:36:04.941 -03:00 [Information] The file "/images/banner3.svg" was not modified
+2018-08-09 00:36:04.941 -03:00 [Information] Request finished in 1.84ms 304 application/javascript
+2018-08-09 00:36:04.941 -03:00 [Information] Request finished in 1.757ms 304 application/javascript
+2018-08-09 00:36:04.944 -03:00 [Information] Request finished in 4.31ms 304 image/svg+xml
+2018-08-09 00:36:04.942 -03:00 [Information] Request finished in 2.101ms 304 application/javascript
+2018-08-09 00:36:04.972 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-08-09 00:36:04.973 -03:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified
+2018-08-09 00:36:04.973 -03:00 [Information] Request finished in 1.143ms 304 font/woff2
+2018-08-09 00:36:12.107 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:36:12.110 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:36:12.111 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:36:12.112 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.48ms.
+2018-08-09 00:36:12.118 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:36:12.123 -03:00 [Information] Executed ViewResult - view "About" executed in 10.016ms.
+2018-08-09 00:36:12.124 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 13.338ms
+2018-08-09 00:36:12.125 -03:00 [Information] Request finished in 18.043ms 200 text/html; charset=utf-8
+2018-08-09 00:36:13.095 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/Contact  
+2018-08-09 00:36:13.098 -03:00 [Information] Route matched with "{action = \"Contact\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)"
+2018-08-09 00:36:13.099 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:36:13.100 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.285ms.
+2018-08-09 00:36:13.102 -03:00 [Information] Executing ViewResult, running view "Contact".
+2018-08-09 00:36:13.107 -03:00 [Information] Executed ViewResult - view "Contact" executed in 6.386ms.
+2018-08-09 00:36:13.108 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" in 9.068ms
+2018-08-09 00:36:13.108 -03:00 [Information] Request finished in 13.296ms 200 text/html; charset=utf-8
+2018-08-09 00:36:13.799 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:36:13.800 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:36:13.800 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:36:13.801 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.014ms.
+2018-08-09 00:36:13.801 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:36:13.803 -03:00 [Information] Executed ViewResult - view "Index" executed in 1.684ms.
+2018-08-09 00:36:13.804 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 3.633ms
+2018-08-09 00:36:13.805 -03:00 [Information] Request finished in 5.796ms 200 text/html; charset=utf-8
+2018-08-09 00:36:14.500 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:36:14.501 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:36:14.501 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:36:14.502 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.02ms.
+2018-08-09 00:36:14.502 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:36:14.504 -03:00 [Information] Executed ViewResult - view "About" executed in 1.357ms.
+2018-08-09 00:36:14.504 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 3.093ms
+2018-08-09 00:36:14.506 -03:00 [Information] Request finished in 5.558ms 200 text/html; charset=utf-8
+2018-08-09 00:36:21.664 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:36:21.665 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:36:21.665 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:36:21.666 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.011ms.
+2018-08-09 00:36:21.667 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:36:21.668 -03:00 [Information] Executed ViewResult - view "Index" executed in 1.284ms.
+2018-08-09 00:36:21.669 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 3.56ms
+2018-08-09 00:36:21.670 -03:00 [Information] Request finished in 5.82ms 200 text/html; charset=utf-8
+2018-08-09 00:36:22.571 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:36:22.571 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:36:22.572 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:36:22.573 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.013ms.
+2018-08-09 00:36:22.573 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:36:22.574 -03:00 [Information] Executed ViewResult - view "About" executed in 1.057ms.
+2018-08-09 00:36:22.575 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 2.882ms
+2018-08-09 00:36:22.576 -03:00 [Information] Request finished in 4.876ms 200 text/html; charset=utf-8
+2018-08-09 00:36:23.388 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/Contact  
+2018-08-09 00:36:23.389 -03:00 [Information] Route matched with "{action = \"Contact\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)"
+2018-08-09 00:36:23.389 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:36:23.390 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.021ms.
+2018-08-09 00:36:23.390 -03:00 [Information] Executing ViewResult, running view "Contact".
+2018-08-09 00:36:23.391 -03:00 [Information] Executed ViewResult - view "Contact" executed in 1.15ms.
+2018-08-09 00:36:23.392 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" in 2.911ms
+2018-08-09 00:36:23.393 -03:00 [Information] Request finished in 4.775ms 200 text/html; charset=utf-8
+2018-08-09 00:40:54.236 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:40:54.237 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:40:54.238 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:40:54.239 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.015ms.
+2018-08-09 00:40:54.239 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:40:54.242 -03:00 [Information] Executed ViewResult - view "Index" executed in 2.316ms.
+2018-08-09 00:40:54.242 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 4.484ms
+2018-08-09 00:40:54.243 -03:00 [Information] Request finished in 7.71ms 200 text/html; charset=utf-8
+2018-08-09 00:40:54.272 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css  
+2018-08-09 00:40:54.274 -03:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2018-08-09 00:40:54.274 -03:00 [Information] Request finished in 2.149ms 304 text/css
+2018-08-09 00:40:54.284 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css  
+2018-08-09 00:40:54.285 -03:00 [Information] The file "/css/site.css" was not modified
+2018-08-09 00:40:54.286 -03:00 [Information] Request finished in 1.822ms 304 text/css
+2018-08-09 00:40:54.294 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/banner1.svg  
+2018-08-09 00:40:54.295 -03:00 [Information] The file "/images/banner1.svg" was not modified
+2018-08-09 00:40:54.296 -03:00 [Information] Request finished in 2.197ms 304 image/svg+xml
+2018-08-09 00:40:54.302 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/banner2.svg  
+2018-08-09 00:40:54.304 -03:00 [Information] The file "/images/banner2.svg" was not modified
+2018-08-09 00:40:54.305 -03:00 [Information] Request finished in 2.196ms 304 image/svg+xml
+2018-08-09 00:40:54.518 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js  
+2018-08-09 00:40:54.518 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.js  
+2018-08-09 00:40:54.519 -03:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2018-08-09 00:40:54.519 -03:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2018-08-09 00:40:54.520 -03:00 [Information] Request finished in 1.685ms 304 application/javascript
+2018-08-09 00:40:54.520 -03:00 [Information] Request finished in 1.852ms 304 application/javascript
+2018-08-09 00:40:54.520 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-08-09 00:40:54.520 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/banner3.svg  
+2018-08-09 00:40:54.521 -03:00 [Information] The file "/js/site.js" was not modified
+2018-08-09 00:40:54.521 -03:00 [Information] The file "/images/banner3.svg" was not modified
+2018-08-09 00:40:54.522 -03:00 [Information] Request finished in 1.538ms 304 application/javascript
+2018-08-09 00:40:54.522 -03:00 [Information] Request finished in 1.676ms 304 image/svg+xml
+2018-08-09 00:40:54.595 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-08-09 00:40:54.596 -03:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified
+2018-08-09 00:40:54.597 -03:00 [Information] Request finished in 1.7ms 304 font/woff2
+2018-08-09 00:41:00.691 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:00.692 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:00.692 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:00.693 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.021ms.
+2018-08-09 00:41:00.694 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:00.697 -03:00 [Information] Executed ViewResult - view "About" executed in 2.71ms.
+2018-08-09 00:41:00.698 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 6.276ms
+2018-08-09 00:41:00.700 -03:00 [Information] Request finished in 8.771ms 200 text/html; charset=utf-8
+2018-08-09 00:41:12.163 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:41:12.170 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:41:12.171 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:12.171 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.014ms.
+2018-08-09 00:41:12.172 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:41:12.174 -03:00 [Information] Executed ViewResult - view "Index" executed in 2.229ms.
+2018-08-09 00:41:12.175 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 4.827ms
+2018-08-09 00:41:12.176 -03:00 [Information] Request finished in 13.705ms 200 text/html; charset=utf-8
+2018-08-09 00:41:14.113 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:14.114 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:14.115 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:14.116 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.019ms.
+2018-08-09 00:41:14.116 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:14.118 -03:00 [Information] Executed ViewResult - view "About" executed in 2.026ms.
+2018-08-09 00:41:14.120 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 5.355ms
+2018-08-09 00:41:14.121 -03:00 [Information] Request finished in 7.871ms 200 text/html; charset=utf-8
+2018-08-09 00:41:15.427 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/Contact  
+2018-08-09 00:41:15.428 -03:00 [Information] Route matched with "{action = \"Contact\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)"
+2018-08-09 00:41:15.429 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:15.430 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.025ms.
+2018-08-09 00:41:15.431 -03:00 [Information] Executing ViewResult, running view "Contact".
+2018-08-09 00:41:15.433 -03:00 [Information] Executed ViewResult - view "Contact" executed in 2.426ms.
+2018-08-09 00:41:15.434 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" in 5.736ms
+2018-08-09 00:41:15.436 -03:00 [Information] Request finished in 8.429ms 200 text/html; charset=utf-8
+2018-08-09 00:41:16.466 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:16.466 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:16.467 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:16.468 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.017ms.
+2018-08-09 00:41:16.468 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:16.470 -03:00 [Information] Executed ViewResult - view "About" executed in 2.002ms.
+2018-08-09 00:41:16.471 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 4.665ms
+2018-08-09 00:41:16.473 -03:00 [Information] Request finished in 7.173ms 200 text/html; charset=utf-8
+2018-08-09 00:41:17.567 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:41:17.568 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:41:17.568 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:17.569 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.018ms.
+2018-08-09 00:41:17.570 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:41:17.572 -03:00 [Information] Executed ViewResult - view "Index" executed in 2.213ms.
+2018-08-09 00:41:17.573 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 4.898ms
+2018-08-09 00:41:17.574 -03:00 [Information] Request finished in 7.629ms 200 text/html; charset=utf-8
+2018-08-09 00:41:18.499 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:18.500 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:18.500 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:18.501 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.022ms.
+2018-08-09 00:41:18.502 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:18.504 -03:00 [Information] Executed ViewResult - view "About" executed in 1.826ms.
+2018-08-09 00:41:18.505 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 4.377ms
+2018-08-09 00:41:18.506 -03:00 [Information] Request finished in 6.65ms 200 text/html; charset=utf-8
+2018-08-09 00:41:19.428 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:41:19.429 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:41:19.430 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:19.431 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.014ms.
+2018-08-09 00:41:19.431 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:41:19.433 -03:00 [Information] Executed ViewResult - view "Index" executed in 1.933ms.
+2018-08-09 00:41:19.434 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 4.558ms
+2018-08-09 00:41:19.435 -03:00 [Information] Request finished in 7.192ms 200 text/html; charset=utf-8
+2018-08-09 00:41:20.304 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/Contact  
+2018-08-09 00:41:20.305 -03:00 [Information] Route matched with "{action = \"Contact\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)"
+2018-08-09 00:41:20.306 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:20.307 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.021ms.
+2018-08-09 00:41:20.308 -03:00 [Information] Executing ViewResult, running view "Contact".
+2018-08-09 00:41:20.310 -03:00 [Information] Executed ViewResult - view "Contact" executed in 1.766ms.
+2018-08-09 00:41:20.311 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" in 5.109ms
+2018-08-09 00:41:20.312 -03:00 [Information] Request finished in 8.015ms 200 text/html; charset=utf-8
+2018-08-09 00:41:21.126 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:21.127 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:21.127 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:21.128 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.018ms.
+2018-08-09 00:41:21.129 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:21.130 -03:00 [Information] Executed ViewResult - view "About" executed in 1.746ms.
+2018-08-09 00:41:21.131 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 4.084ms
+2018-08-09 00:41:21.132 -03:00 [Information] Request finished in 6.413ms 200 text/html; charset=utf-8
+2018-08-09 00:41:22.061 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:41:22.061 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:41:22.062 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:22.063 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.018ms.
+2018-08-09 00:41:22.064 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:41:22.065 -03:00 [Information] Executed ViewResult - view "Index" executed in 1.642ms.
+2018-08-09 00:41:22.066 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 4.506ms
+2018-08-09 00:41:22.068 -03:00 [Information] Request finished in 7.073ms 200 text/html; charset=utf-8
+2018-08-09 00:41:22.975 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:22.976 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:22.976 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:22.977 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.021ms.
+2018-08-09 00:41:22.978 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:22.981 -03:00 [Information] Executed ViewResult - view "About" executed in 2.512ms.
+2018-08-09 00:41:22.982 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 5.886ms
+2018-08-09 00:41:22.984 -03:00 [Information] Request finished in 8.714ms 200 text/html; charset=utf-8
+2018-08-09 00:41:28.322 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:41:28.325 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:41:28.326 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:28.327 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.016ms.
+2018-08-09 00:41:28.328 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:41:28.330 -03:00 [Information] Executed ViewResult - view "Index" executed in 2.017ms.
+2018-08-09 00:41:28.331 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 5.233ms
+2018-08-09 00:41:28.332 -03:00 [Information] Request finished in 10.096ms 200 text/html; charset=utf-8
+2018-08-09 00:41:29.713 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:41:29.714 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:41:29.715 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:29.715 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.014ms.
+2018-08-09 00:41:29.716 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:41:29.718 -03:00 [Information] Executed ViewResult - view "Index" executed in 1.881ms.
+2018-08-09 00:41:29.719 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 4.555ms
+2018-08-09 00:41:29.721 -03:00 [Information] Request finished in 7.185ms 200 text/html; charset=utf-8
+2018-08-09 00:41:31.015 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:31.016 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:31.017 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:31.018 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.038ms.
+2018-08-09 00:41:31.019 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:31.022 -03:00 [Information] Executed ViewResult - view "About" executed in 2.329ms.
+2018-08-09 00:41:31.023 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 6.34ms
+2018-08-09 00:41:31.025 -03:00 [Information] Request finished in 9.676ms 200 text/html; charset=utf-8
+2018-08-09 00:41:32.162 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:41:32.162 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:41:32.163 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:32.164 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.018ms.
+2018-08-09 00:41:32.165 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:41:32.167 -03:00 [Information] Executed ViewResult - view "Index" executed in 2.328ms.
+2018-08-09 00:41:32.169 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 5.298ms
+2018-08-09 00:41:32.170 -03:00 [Information] Request finished in 8.316ms 200 text/html; charset=utf-8
+2018-08-09 00:41:33.187 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:33.188 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:33.189 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:33.189 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.02ms.
+2018-08-09 00:41:33.190 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:33.193 -03:00 [Information] Executed ViewResult - view "About" executed in 2.326ms.
+2018-08-09 00:41:33.194 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 5.12ms
+2018-08-09 00:41:33.195 -03:00 [Information] Request finished in 7.848ms 200 text/html; charset=utf-8
+2018-08-09 00:41:33.847 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/Contact  
+2018-08-09 00:41:33.848 -03:00 [Information] Route matched with "{action = \"Contact\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)"
+2018-08-09 00:41:33.849 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:33.851 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.023ms.
+2018-08-09 00:41:33.852 -03:00 [Information] Executing ViewResult, running view "Contact".
+2018-08-09 00:41:33.854 -03:00 [Information] Executed ViewResult - view "Contact" executed in 2.091ms.
+2018-08-09 00:41:33.855 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" in 5.343ms
+2018-08-09 00:41:33.855 -03:00 [Information] Request finished in 8.464ms 200 text/html; charset=utf-8
+2018-08-09 00:41:34.575 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:34.576 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:34.577 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:34.578 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.019ms.
+2018-08-09 00:41:34.579 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:34.581 -03:00 [Information] Executed ViewResult - view "About" executed in 1.944ms.
+2018-08-09 00:41:34.582 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 4.776ms
+2018-08-09 00:41:34.583 -03:00 [Information] Request finished in 7.599ms 200 text/html; charset=utf-8
+2018-08-09 00:41:35.244 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/Contact  
+2018-08-09 00:41:35.247 -03:00 [Information] Route matched with "{action = \"Contact\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)"
+2018-08-09 00:41:35.248 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:35.250 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.043ms.
+2018-08-09 00:41:35.251 -03:00 [Information] Executing ViewResult, running view "Contact".
+2018-08-09 00:41:35.253 -03:00 [Information] Executed ViewResult - view "Contact" executed in 2.24ms.
+2018-08-09 00:41:35.254 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" in 6.113ms
+2018-08-09 00:41:35.255 -03:00 [Information] Request finished in 10.997ms 200 text/html; charset=utf-8
+2018-08-09 00:41:36.149 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:36.150 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:36.150 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:36.151 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.019ms.
+2018-08-09 00:41:36.152 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:36.154 -03:00 [Information] Executed ViewResult - view "About" executed in 1.898ms.
+2018-08-09 00:41:36.155 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 4.949ms
+2018-08-09 00:41:36.157 -03:00 [Information] Request finished in 7.771ms 200 text/html; charset=utf-8
+2018-08-09 00:41:37.036 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:41:37.037 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:41:37.038 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:37.039 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.018ms.
+2018-08-09 00:41:37.040 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:41:37.043 -03:00 [Information] Executed ViewResult - view "Index" executed in 2.892ms.
+2018-08-09 00:41:37.044 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 6.75ms
+2018-08-09 00:41:37.045 -03:00 [Information] Request finished in 9.918ms 200 text/html; charset=utf-8
+2018-08-09 00:41:37.967 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:37.968 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:37.969 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:37.970 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.022ms.
+2018-08-09 00:41:37.971 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:37.974 -03:00 [Information] Executed ViewResult - view "About" executed in 2.287ms.
+2018-08-09 00:41:37.975 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 5.636ms
+2018-08-09 00:41:37.976 -03:00 [Information] Request finished in 8.601ms 200 text/html; charset=utf-8
+2018-08-09 00:41:38.764 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/Contact  
+2018-08-09 00:41:38.764 -03:00 [Information] Route matched with "{action = \"Contact\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)"
+2018-08-09 00:41:38.765 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:38.766 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.019ms.
+2018-08-09 00:41:38.767 -03:00 [Information] Executing ViewResult, running view "Contact".
+2018-08-09 00:41:38.769 -03:00 [Information] Executed ViewResult - view "Contact" executed in 2.008ms.
+2018-08-09 00:41:38.770 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" in 4.903ms
+2018-08-09 00:41:38.771 -03:00 [Information] Request finished in 7.861ms 200 text/html; charset=utf-8
+2018-08-09 00:41:39.530 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:39.531 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:39.532 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:39.532 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.019ms.
+2018-08-09 00:41:39.533 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:39.535 -03:00 [Information] Executed ViewResult - view "About" executed in 1.779ms.
+2018-08-09 00:41:39.536 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 4.516ms
+2018-08-09 00:41:39.538 -03:00 [Information] Request finished in 7.904ms 200 text/html; charset=utf-8
+2018-08-09 00:41:40.544 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/Contact  
+2018-08-09 00:41:40.545 -03:00 [Information] Route matched with "{action = \"Contact\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)"
+2018-08-09 00:41:40.546 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:40.547 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.024ms.
+2018-08-09 00:41:40.548 -03:00 [Information] Executing ViewResult, running view "Contact".
+2018-08-09 00:41:40.550 -03:00 [Information] Executed ViewResult - view "Contact" executed in 2.173ms.
+2018-08-09 00:41:40.551 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" in 5.609ms
+2018-08-09 00:41:40.553 -03:00 [Information] Request finished in 8.586ms 200 text/html; charset=utf-8
+2018-08-09 00:41:41.216 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:41.218 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:41.219 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:41.220 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.024ms.
+2018-08-09 00:41:41.221 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:41.223 -03:00 [Information] Executed ViewResult - view "About" executed in 2.315ms.
+2018-08-09 00:41:41.224 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 5.546ms
+2018-08-09 00:41:41.225 -03:00 [Information] Request finished in 8.733ms 200 text/html; charset=utf-8
+2018-08-09 00:41:41.969 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:41:41.970 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:41:41.970 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:41.971 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.014ms.
+2018-08-09 00:41:41.972 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:41:41.974 -03:00 [Information] Executed ViewResult - view "Index" executed in 2.22ms.
+2018-08-09 00:41:41.976 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 5.601ms
+2018-08-09 00:41:41.977 -03:00 [Information] Request finished in 8.511ms 200 text/html; charset=utf-8
+2018-08-09 00:41:42.955 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:41:42.956 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:41:42.957 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:42.958 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.016ms.
+2018-08-09 00:41:42.959 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:41:42.962 -03:00 [Information] Executed ViewResult - view "Index" executed in 2.479ms.
+2018-08-09 00:41:42.963 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 5.67ms
+2018-08-09 00:41:42.964 -03:00 [Information] Request finished in 8.74ms 200 text/html; charset=utf-8
+2018-08-09 00:41:44.865 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:41:44.866 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:41:44.867 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:44.868 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.022ms.
+2018-08-09 00:41:44.869 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:41:44.871 -03:00 [Information] Executed ViewResult - view "About" executed in 1.875ms.
+2018-08-09 00:41:44.872 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 5.216ms
+2018-08-09 00:41:44.873 -03:00 [Information] Request finished in 8.201ms 200 text/html; charset=utf-8
+2018-08-09 00:41:45.820 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:41:45.821 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:41:45.822 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:41:45.823 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.017ms.
+2018-08-09 00:41:45.824 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:41:45.826 -03:00 [Information] Executed ViewResult - view "Index" executed in 1.854ms.
+2018-08-09 00:41:45.827 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 4.731ms
+2018-08-09 00:41:45.828 -03:00 [Information] Request finished in 7.624ms 200 text/html; charset=utf-8
+2018-08-09 00:42:40.285 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/1  
+2018-08-09 00:42:40.288 -03:00 [Information] Request finished in 2.48ms 404 
+2018-08-09 00:43:14.800 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/Contact  
+2018-08-09 00:43:14.803 -03:00 [Information] Route matched with "{action = \"Contact\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)"
+2018-08-09 00:43:14.803 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:43:14.804 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.033ms.
+2018-08-09 00:43:14.806 -03:00 [Information] Executing ViewResult, running view "Contact".
+2018-08-09 00:43:14.808 -03:00 [Information] Executed ViewResult - view "Contact" executed in 2.106ms.
+2018-08-09 00:43:14.809 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Contact (SampleMVCCore)" in 5.274ms
+2018-08-09 00:43:14.810 -03:00 [Information] Request finished in 9.362ms 200 text/html; charset=utf-8
+2018-08-09 00:43:16.922 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:43:16.923 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:43:16.924 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:43:16.924 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.02ms.
+2018-08-09 00:43:16.925 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:43:16.927 -03:00 [Information] Executed ViewResult - view "About" executed in 1.889ms.
+2018-08-09 00:43:16.928 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 4.758ms
+2018-08-09 00:43:16.930 -03:00 [Information] Request finished in 7.438ms 200 text/html; charset=utf-8
+2018-08-09 00:45:00.545 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2018-08-09 00:45:00.545 -03:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)"
+2018-08-09 00:45:00.546 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:45:00.547 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.018ms.
+2018-08-09 00:45:00.548 -03:00 [Information] Executing ViewResult, running view "Index".
+2018-08-09 00:45:00.550 -03:00 [Information] Executed ViewResult - view "Index" executed in 2.038ms.
+2018-08-09 00:45:00.551 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.Index (SampleMVCCore)" in 5.305ms
+2018-08-09 00:45:00.552 -03:00 [Information] Request finished in 7.895ms 200 text/html; charset=utf-8
+2018-08-09 00:45:00.575 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css  
+2018-08-09 00:45:00.576 -03:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2018-08-09 00:45:00.577 -03:00 [Information] Request finished in 2.301ms 304 text/css
+2018-08-09 00:45:00.586 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css  
+2018-08-09 00:45:00.587 -03:00 [Information] The file "/css/site.css" was not modified
+2018-08-09 00:45:00.588 -03:00 [Information] Request finished in 1.786ms 304 text/css
+2018-08-09 00:45:00.592 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/banner1.svg  
+2018-08-09 00:45:00.593 -03:00 [Information] The file "/images/banner1.svg" was not modified
+2018-08-09 00:45:00.594 -03:00 [Information] Request finished in 2.156ms 304 image/svg+xml
+2018-08-09 00:45:00.598 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/banner2.svg  
+2018-08-09 00:45:00.599 -03:00 [Information] The file "/images/banner2.svg" was not modified
+2018-08-09 00:45:00.600 -03:00 [Information] Request finished in 1.93ms 304 image/svg+xml
+2018-08-09 00:45:00.731 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js  
+2018-08-09 00:45:00.731 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.js  
+2018-08-09 00:45:00.732 -03:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2018-08-09 00:45:00.732 -03:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2018-08-09 00:45:00.732 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/banner3.svg  
+2018-08-09 00:45:00.732 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-08-09 00:45:00.733 -03:00 [Information] The file "/images/banner3.svg" was not modified
+2018-08-09 00:45:00.733 -03:00 [Information] Request finished in 2.259ms 304 application/javascript
+2018-08-09 00:45:00.733 -03:00 [Information] The file "/js/site.js" was not modified
+2018-08-09 00:45:00.733 -03:00 [Information] Request finished in 2.426ms 304 application/javascript
+2018-08-09 00:45:00.734 -03:00 [Information] Request finished in 1.414ms 304 image/svg+xml
+2018-08-09 00:45:00.734 -03:00 [Information] Request finished in 2.173ms 304 application/javascript
+2018-08-09 00:45:00.776 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-08-09 00:45:00.777 -03:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified
+2018-08-09 00:45:00.778 -03:00 [Information] Request finished in 1.805ms 304 font/woff2
+2018-08-09 00:45:01.978 -03:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Home/About  
+2018-08-09 00:45:01.979 -03:00 [Information] Route matched with "{action = \"About\", controller = \"Home\"}". Executing action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)"
+2018-08-09 00:45:01.980 -03:00 [Information] Executing action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" - Validation state: Valid
+2018-08-09 00:45:01.981 -03:00 [Information] Executed action method "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.024ms.
+2018-08-09 00:45:01.982 -03:00 [Information] Executing ViewResult, running view "About".
+2018-08-09 00:45:01.984 -03:00 [Information] Executed ViewResult - view "About" executed in 2.088ms.
+2018-08-09 00:45:01.985 -03:00 [Information] Executed action "SampleMVCCore.Controllers.HomeController.About (SampleMVCCore)" in 5.496ms
+2018-08-09 00:45:01.986 -03:00 [Information] Request finished in 8.181ms 200 text/html; charset=utf-8
