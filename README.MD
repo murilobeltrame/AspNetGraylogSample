@@ -7,8 +7,11 @@ This is a very simple sample showing how to log an ASP.Net Core on Graylog
 - [Requirements](#requirements)
 - [Running](#running)
    - [Dependencies](#dependencies)
-   - [Application](#application)
-- [Logging ASP.Net Core](#logging-aspnet-core)
+   - [ASP.Net](#aspnet)
+   - [ASP.Net Core](#aspnet-core)
+- [Logging](#logging)
+    - [ASP.Net](#log-aspnet)
+    - [ASP.Net Core](#log-aspnet-core)
 - [Exploring Graylog](#exploring-graylog)
 - [References](#references)
 
@@ -17,7 +20,8 @@ This is a very simple sample showing how to log an ASP.Net Core on Graylog
 | Tool | Desc | Download |
 | ---- | ---- | -------- |
 | Docker | Specially to run the Compose to run up all the solution dependencies like Mongo, Graylog and Elastic Search | [https://store.docker.com/](https://store.docker.com/) |
-| DotNet Core SDK | To run the sample application. You can optionally run the sample application on a container but you will need to deal with networking stuff | [https://www.microsoft.com/net/download](https://www.microsoft.com/net/download) |
+| DotNet Core SDK 2.1+ | To run the sample ASP.Net Core application. You can optionally run the sample application on a container but you will need to deal with networking stuff | [https://www.microsoft.com/net/download](https://www.microsoft.com/net/download) |
+| Visual Studio 2015+ | To run the sample of *now traditional* ASP.Net application. Windows only. You can optionally run the sample building with MSTest and serving with a local (or remote) IIS but is a unnecessary pain. | [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/) |
 
 ## Running
 
@@ -42,19 +46,42 @@ docker-compose up -d
 
 > The `-d` option is opitional and tells the command to run on background freeing up the terminal.
 
-### Application
+### ASP.Net
 
-To run the sample application, just run the command
+[TODO]
+
+### ASP.Net Core
+
+To run this sample application, just run the command:
 
 ```sh
-dotnet run -p ./SampleMVC
+dotnet run -p ./SampleMVCCore
 ```
 
-> By default, the sample application locks the **5000** port on host.
+Alternatively, there`s a configured Docker recipe for the application. To build and run, execute this command sequence:
 
-## Logging ASP.Net Core
+```sh
+docker build -t aspnetcore-graylog-sample ./SampleMVCCore/.
+docker run -p 5001:80 aspnetcore-graylog-sample
+```
 
-The sample applications uses the [Gelf.Extensions.Logging](https://www.nuget.org/packages/Gelf.Extensions.Logging/) library, that relyes on [Microsoft.Extensions.Logging](https://www.nuget.org/packages/Microsoft.Extensions.Logging/), enabling a very seamless integration to the application pipeline and enabling a very simple loggin implementation.
+> By default, the sample application locks the **5001** port on host.
+
+[TODO] Fix communication between Graylog (Compose) and Docker app.
+
+## Logging
+
+The logging is managed by [Serilog](https://www.nuget.org/packages/Serilog/).
+Serilog offers *sinks* that extends the logging engine to output data to a variety of destination.
+The main *sinks* applied by this sample is the the [Serilog.Sinks.Graylog](https://www.nuget.org/packages/Serilog.Sinks.Graylog/) that outputs the logs to the configured Graylog instance.
+
+### Log ASP.Net
+
+[TODO]
+
+### Log ASP.Net Core
+
+The instrumentation of ASP.Net Core code is made by [Serilog.AspNetCore](https://www.nuget.org/packages/Serilog.AspNetCore/). This library enable a streamline application pipeline integration.
 To log informations to Graylog just use the common pattern as described in the [ASP.Net Core Documentation](https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/logging/?view=aspnetcore-2.1).
 
 ## Exploring Graylog

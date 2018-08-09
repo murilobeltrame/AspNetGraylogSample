@@ -3,3 +3,5 @@
 **/obj/*
 *.user
 **/packages/*
+**/log*.log
+**/log*.txt
